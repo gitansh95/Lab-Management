@@ -28,7 +28,7 @@ def run():
 
     goto  ('work/git/XPLORE/Qrius/user_scripts/')
     write ('execute : Open Terminal')
-    write ('execute : type python voltage_measurements.py')
+    write ('execute : type python current_measurements.py')
     write ('execute : press enter')
 
     write ('execute : set temperature setpoints as required')
