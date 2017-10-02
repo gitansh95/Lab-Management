@@ -33,10 +33,10 @@ def run():
     
 ##########################################################################
     # Cut the wire to specified length
-    move ("Vernier_Calipers", "copper_wire_start_mark")
+    move ("Wire_Cutter", "copper_wire_start_mark")
     press("Wire cutter handle")
     
-    move ("Vernier_Calipers", "copper_wire_end_mark")
+    move ("Wire_Cutter", "copper_wire_end_mark")
     press("Wire cutter handle")
     
     take_photo ("copper_wire")
@@ -45,7 +45,7 @@ def run():
     # Remove enamel coating from ends
     
     ######### Take Precautions while performing following steps ##########
-    move ("E-SOL Enamel remover flask's cap away from experiment")
+    move ("E-SOL Enamel remover flask's cap", "away from experiment")
     leave ("E-SOL Enamel remover flask's cap")
     
     write ("execute : Using toothpick, carefully exctract 2 drops of enamel remover onto a glass slide")
