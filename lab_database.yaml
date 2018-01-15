@@ -535,7 +535,7 @@ Lab_Space:
                   Terminal_2:
                     Soldered                  : YES/NO
                     Length                    :
-                    
+
                 Res_20:
                   State                       : NOT_IN_USE
                   Home_Coordinates            : SAMPLE_TABLE
@@ -553,7 +553,7 @@ Lab_Space:
                   Terminal_2:
                     Soldered                  : YES/NO
                     Length                    :
-                    
+
                 Res_21:
                   State                       : NOT_IN_USE
                   Home_Coordinates            : SAMPLE_TABLE
@@ -571,7 +571,7 @@ Lab_Space:
                   Terminal_2:
                     Soldered                  : YES/NO
                     Length                    :
-                    
+
                 Res_22:
                   State                       : NOT_IN_USE
                   Home_Coordinates            : SAMPLE_TABLE
@@ -607,7 +607,7 @@ Lab_Space:
                   Terminal_2:
                     Soldered                  : YES/NO
                     Length                    :
-                    
+
                 Res_24:
                   State                       : NOT_IN_USE
                   Home_Coordinates            : SAMPLE_TABLE
@@ -779,7 +779,7 @@ Lab_Space:
                     Soldered                  : NO
                   Terminal_2:
                     Soldered                  : NO
-                    
+
                 copper_wire_2:
                   State                       : NOT_IN_USE
                   Home_Coordinates            : DESSICATOR
@@ -793,7 +793,7 @@ Lab_Space:
                     Soldered                  : NO
                   Terminal_2:
                     Soldered                  : NO
-                
+
                 copper_wire_3:
                   State                       : NOT_IN_USE
                   Home_Coordinates            : DESSICATOR
@@ -807,7 +807,35 @@ Lab_Space:
                     Soldered                  : NO
                   Terminal_2:
                     Soldered                  : NO
-                
+
+                copper_wire_4:
+                  State                       : NOT_IN_USE
+                  Home_Coordinates            : DESSICATOR
+                  Current_Coordinates         : DESSICATOR
+                  Shape                       : CYLINDRICAL
+                  Length                      : 50.0 mm
+                  Diameter                    : 0.0813
+                  Config                      : 4-probe
+                  Photo                       : Sample Photos/copper_wire_4.jpg
+                  Terminal_1:
+                    Soldered                  : NO
+                  Terminal_2:
+                    Soldered                  : NO
+
+                copper_wire_5:
+                  State                       : NOT_IN_USE
+                  Home_Coordinates            : DESSICATOR
+                  Current_Coordinates         : DESSICATOR
+                  Shape                       : CYLINDRICAL
+                  Length                      : 100.0 mm
+                  Diameter                    : 0.0813
+                  Config                      : 4-probe
+                  Photo                       : Sample Photos/copper_wire_5.jpg
+                  Terminal_1:
+                    Soldered                  : NO
+                  Terminal_2:
+                    Soldered                  : NO
+
 
                 HOPG:
                   State                       : NOT_IN_USE
@@ -1010,7 +1038,7 @@ Lab_Space:
                 Puck_2:
 
                     State                     : DAMAGED
-                    Home_Coordinates          : 
+                    Home_Coordinates          :
                     Current_Coordinates       :
                     Insert_Connection         : DISCONNECTED
                     Puck_Board_Connection     : CONNECTED
@@ -1023,8 +1051,8 @@ Lab_Space:
                         Soldered              : YES
                     Terminal_4:
                         Soldered              : YES
-                
-                Puck_YBCO: 
+
+                Puck_YBCO:
 
                     State                     : NOT_IN_USE
                     Home_Coordinates          :
@@ -1040,8 +1068,8 @@ Lab_Space:
                         Soldered              : YES
                     Terminal_4:
                         Soldered              : YES
-                        
-                Puck_Old: 
+
+                Puck_Old:
 
                     State                     : NOT_IN_USE
                     Home_Coordinates          :
@@ -1119,7 +1147,7 @@ Lab_Space:
                      Home_Coordinates         :
                      Cryostat_End             :
                      PQMS_End                 :
-                 
+
                  HiRes_Cable:
                      Home_Coordinates         :
                      Cryostat_End             :
